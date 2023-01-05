@@ -79,3 +79,15 @@ nav ul li {
   right: 50px;
   top: 150px;
 }
+
+.one-edge-shadow {
+  box-shadow: 60px -16px teal;
+  width: 100px;
+  height: 100px;
+}
+
+.one-edge-shadow-2 {
+  box-shadow: 60px 16px 16px teal;
+  width: 100px;
+  height: 100px;
+}
