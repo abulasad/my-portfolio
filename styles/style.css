@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Portfolio blog */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+.portfolio-logo {
+  display: flex;
+  font-size: 45px;
+  font-weight: 800;
+}
