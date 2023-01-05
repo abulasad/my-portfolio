@@ -7,17 +7,75 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/* color */
+.header {
+  background-color: #fff8f3;
+  background: url(../images/header_bg.png);
+}
+/* .btn {
+  background-color: #fd6e0a;
+  color: white;
+  border: none;
+} */
+
 /* Portfolio blog */
 
+.nav-header {
+  width: 75vw;
+  margin: auto;
+  background-color: #fff8f3;
+}
 nav {
   display: flex;
   justify-content: space-between;
 }
 nav ul {
   display: flex;
+  align-items: center;
 }
+nav ul li {
+  margin: 10px 20px;
+}
+
 .portfolio-logo {
   display: flex;
-  font-size: 45px;
-  font-weight: 800;
+  color: #000000;
+
+  font-weight: 700;
+}
+
+/* Banner Styles */
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: 356px;
+  width: 500px;
+  position: absolute;
+  left: 220px;
+  top: 200px;
+}
+
+.banner-title {
+  font-weight: 500;
+  color: #000000;
+}
+.author-name {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #000000;
+}
+.author-bio {
+  color: #757575;
+}
+
+/* banner image */
+.banner-image {
+  background-image: url(../images/hardy.png);
+  background: no-repeat right top / 90% auto;
+  width: 584px;
+  height: 676px;
+  position: absolute;
+  right: 50px;
+  top: 150px;
 }
